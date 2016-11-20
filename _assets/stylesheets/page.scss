@@ -1,8 +1,8 @@
 
 body {
   // background-color: white;
-  background: $body-background-color;
-  color: $body-text-color;
+  background: $site-background-color;
+  color: $site-text-color;
   transition: .3s background ease-in;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -18,4 +18,14 @@ body {
   height: 100%;
   padding: 0;
   margin: 0 auto 0;
+}
+
+
+.site-footer {
+  height: 120px;
+  background: $site-footer-background-color;
+  align-items: center;
+  display: flex;
+  margin-top: 4rem;
+  border-top: solid 1px $site-footer-border-color;
 }

@@ -108,7 +108,6 @@ redcloth:
 
 gems:
   - jekyll-assets
-  - jekyll-picture-tag
 
 #
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets

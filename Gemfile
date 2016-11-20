@@ -8,5 +8,7 @@ gem 'sass'
 gem 'uglifier'
 gem 'github-pages'
 
-gem 'jekyll-picture-tag', :git => 'https://github.com/websiddu/jekyll-picture-tag.git'
+# gem 'jekyll-picture-tag', :git => 'https://github.com/websiddu/jekyll-picture-tag.git'
+gem 'mini_magick'
+gem 'fastimage'
 gem 'redcarpet'
