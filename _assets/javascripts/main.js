@@ -20,12 +20,18 @@
         $(this).find("img").height(Math.ceil(c / minRatio)).width(Math.ceil(c / minRatio) * ratios[index]);
         $(this).css({ 'flex-basis': (Math.ceil(c / minRatio) * ratios[index]) + 'px'});
       });
+    });
+  }
 
-
-
+  var _unvial = function () {
+    $("img").unveil(300, function() {
+      $(this).load(function() {
+        this.style.opacity = 1;
+      });
     });
   }
 
   _arrangeGrid();
+  _unvial();
 
 })();

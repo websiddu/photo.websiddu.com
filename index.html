@@ -3,16 +3,16 @@ layout: base
 ---
 
 <article class="container">
-  <div class="columns posts-list">
+  <div class="columns is-multiline posts-list">
 {% for post in paginator.posts %}
   {% unless post.draft %}
-    <section class="index column is-vertical">
+    <section class="index column is-6">
         <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
         <a href="{{ post.url }}" rel="prefetch">
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="{{post.cover_image}}" alt="">
+                <img src="images/loader.svg" data-src="{{post.cover_image}}" alt="">
               </figure>
             </div>
             <div class="card-content">

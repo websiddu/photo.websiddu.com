@@ -9,6 +9,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.logo-back {
+  fill: #4A89DC
+}
+
+.logo-front {
+  fill: #5D9CEC
+}
+
+.logo-text {
+  fill: #fff
+}
+
+.site-nav {
+  .nav {
+    padding: 0 1rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
 .page {
   line-height: 1.65;
   min-height: 500px;
@@ -31,18 +51,20 @@ body {
 }
 
 .posts-list {
-  margin-top: 6rem;
+  margin-top: 4rem;
 
   .card {
     position: relative;
     overflow: hidden;
+    background: #43434B;
 
     img {
       width: 100%;
       max-width: 100%;
       line-height: 0;
       height: auto;
-      transition: all 4s ease-out;
+      transition: transform 4s ease-out,
+        opacity 0.4s ease-in;
     }
 
     .card-image {
