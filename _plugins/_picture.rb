@@ -254,6 +254,7 @@ module Jekyll
         end
 
         image.write gen_dest_file
+
       end
 
       # Return path relative to the site root for html

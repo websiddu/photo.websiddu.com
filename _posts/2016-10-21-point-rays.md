@@ -1,10 +1,10 @@
 ---
 layout: post
 
-title: The Point Reyes Lighthouse
+title: Point Reyes Lighthouse
 subtitle: "The city of tradition, food, people and buildings"
 cover_image: /images/IMG_1312.jpg
-
+size: 8
 excerpt: ""
 
 author:

@@ -3,22 +3,34 @@ layout: base
 ---
 
 <article class="container">
+  <div class="columns posts-list">
 {% for post in paginator.posts %}
   {% unless post.draft %}
-    <section class="index">
+    <section class="index column is-vertical">
         <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
-        <div>
-            <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
-            <p>{{ post.excerpt }}</p>
-            <div class="meta">
+        <a href="{{ post.url }}" rel="prefetch">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="{{post.cover_image}}" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <h2 class="title">{{ post.title }}</h2>
+              <p>{{ post.excerpt }}</p>
+            </div>
+          </div>
+        </a>
+
+
+            <!--<div class="meta">
                 Written By <address>{{ post.author.name }}</address> &mdash;
                 <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
-            </div>
-        </div>
-        <hr>
+            </div>-->
     </section>
     {% endunless %}
     {% endfor %}
+</div>
     <section class="pagination" style="text-align:center">
       {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}

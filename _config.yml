@@ -58,7 +58,7 @@ pygments:    false
 
 relative_permalinks: true
 
-permalink:     pretty
+permalink:     none
 paginate_path: 'page:num'
 paginate: 10
 
