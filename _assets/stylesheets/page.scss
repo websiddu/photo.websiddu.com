@@ -1,0 +1,21 @@
+
+body {
+  // background-color: white;
+  background: $body-background-color;
+  color: $body-text-color;
+  transition: .3s background ease-in;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+  line-height: 1.65;
+  min-height: 500px;
+  font-size: 100%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto 0;
+}

@@ -1,0 +1,47 @@
+.page-title {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 4rem 0 1rem 0;
+  text-align: center;
+}
+
+.page-subtitle {
+  color: $body-text-color;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.7rem;
+  margin: 0 auto 4.5rem;
+  text-align: center;
+  opacity: 0.6;
+  width: 42rem;
+}
+
+.story-content {
+  overflow: hidden;
+  width: 42rem;
+  margin: 4rem auto 4rem;
+
+  p {
+    font-size: 1.25rem;
+    line-height: 1.55;
+    color: #A9ABAD;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+}
+
+.photo-set {
+  &.columns:not(:last-child) {
+    margin-bottom: 0;
+  }
+  picture{
+    padding: 7.5px 5px;
+  }
+}
+
+
+.is-fullheight {
+  .column {
+    padding: 4.5px;
+  }
+}
