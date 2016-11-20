@@ -7,7 +7,11 @@ module Jekyll
     end
 
     def render(context)
-      "<section class='story-content #{@text}'> <p> #{ super } </p> </section>"
+      site = context.registers[:site]
+      converter = site.getConverterImpl(::Jekyll::Converters::Markdown)
+      output = converter.convert(super(context))
+      icon = if @text == 'location' then "<i class='locaiton-icon material-icons'>location_on</i>" else "" end
+      "<section class='story-content #{@text}'> #{icon} #{output} </section>"
     end
   end
 end

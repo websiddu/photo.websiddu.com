@@ -14,7 +14,8 @@ namespace :site do
   task :generate do
     Jekyll::Site.new(Jekyll.configuration({
       "source"      => ".",
-      "destination" => "_site"
+      "destination" => "_site",
+      "url" => 'http://photo.websiddu.com'
     })).process
   end
 

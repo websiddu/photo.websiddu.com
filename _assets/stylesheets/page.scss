@@ -10,15 +10,15 @@ body {
 }
 
 .logo-back {
-  fill: #4A89DC
+  fill: #4A89DC;
 }
 
 .logo-front {
-  fill: #5D9CEC
+  fill: #5D9CEC;
 }
 
 .logo-text {
-  fill: #fff
+  fill: #fff;
 }
 
 .site-nav {
@@ -42,12 +42,11 @@ body {
 
 
 .site-footer {
-  height: 120px;
+  min-height: 120px;
   background: $site-footer-background-color;
-  align-items: center;
-  display: flex;
   margin-top: 4rem;
   border-top: solid 1px $site-footer-border-color;
+  padding: 2rem 0;
 }
 
 .posts-list {

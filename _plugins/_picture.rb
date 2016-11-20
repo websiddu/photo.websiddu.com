@@ -229,8 +229,8 @@ module Jekyll
         gen_width = if orig_ratio < gen_ratio then orig_width else orig_height * gen_ratio end
         gen_height = if orig_ratio > gen_ratio then orig_height else orig_width/gen_ratio end
       end
-
-      gen_name = "#{basename}-#{gen_width.round}by#{gen_height.round}-#{digest}#{ext}"
+      #-#{digest}
+      gen_name = "#{basename}-#{gen_width.round}by#{gen_height.round}#{ext}"
       gen_dest_dir = File.join(site_dest, image_dest, image_dir)
       gen_dest_file = File.join(gen_dest_dir, gen_name)
 
