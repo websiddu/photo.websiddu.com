@@ -17,8 +17,12 @@
 
       images.each(function (index, img) {
         var c = photoSetWidth / j;
-        $(this).find("img").height(Math.ceil(c / minRatio)).width(Math.ceil(c / minRatio) * ratios[index]);
-        $(this).css({ 'flex-basis': (Math.ceil(c / minRatio) * ratios[index]) + 'px'});
+        if ($(document).width() > 765) {
+          $(this).find("img").height(Math.ceil(c / minRatio)).width(Math.ceil(c / minRatio) * ratios[index]);
+          $(this).css({ 'flex-basis': (Math.ceil(c / minRatio) * ratios[index]) + 'px' });
+        } else {
+          $(this).find("img").height('auto').width('100%');
+        }
       });
     });
   }
@@ -31,6 +35,11 @@
     });
   }
 
+  var _resize = function () {
+    $(window).on('resize', _arrangeGrid);
+  }
+
+  _resize();
   _arrangeGrid();
   _unvial();
 

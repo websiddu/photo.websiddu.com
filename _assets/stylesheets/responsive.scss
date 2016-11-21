@@ -1,0 +1,44 @@
+@include until(765px) {
+  body {
+
+  }
+  .page-title {
+    font-size: 4rem;
+    margin: 2rem 0 1rem 0;
+  }
+  .page-subtitle {
+    font-size: 1.3rem;
+    margin: 0 auto 3.5rem;
+  }
+  .story-content {
+    margin: 3.5rem 1rem 1.5rem;
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 1.2rem;
+    }
+    &.location {
+      i.locaiton-icon {
+        font-size: 1.7rem;
+        margin-right: 0.7rem;
+      }
+    }
+  }
+
+  .photo-set {
+    picture.column {
+      img {
+        padding: 5px 0;
+      }
+    }
+  }
+
+  .site-footer {
+    .container {
+      margin: auto 1rem;
+    }
+  }
+}
