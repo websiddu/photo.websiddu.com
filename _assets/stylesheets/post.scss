@@ -1,4 +1,5 @@
 $site-content-width: 42rem;
+$transition-function: cubic-bezier(0.4, 0.0, 0.2, 1);
 
 .page-title {
   font-size: 6rem;
@@ -20,7 +21,9 @@ $site-content-width: 42rem;
 
 img {
   opacity: 0.5;
-  transition: opacity .3s ease-in;
+  transition: opacity .3s $transition-function,
+      height .3s $transition-function,
+      width .3s $transition-function;
 }
 
 .article-cover {

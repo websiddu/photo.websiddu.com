@@ -1,14 +1,18 @@
 @include until(765px) {
-  body {
-
+  img {
+    opacity: 1;
+    transition: opacity .3s ease-in,
+      height .3s ease-in,
+      width .3s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
+
   .page-title {
     font-size: 4rem;
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 1rem 1rem;
   }
   .page-subtitle {
     font-size: 1.3rem;
-    margin: 0 auto 3.5rem;
+    margin: 0 1rem 3.5rem;
   }
   .story-content {
     margin: 3.5rem 1rem 1.5rem;
