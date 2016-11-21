@@ -10,11 +10,11 @@ excerpt: ""
 author:
   name: Siddhartha Gudipati
   twitter: websiddu
-  gplus: 100687498195339762535
+  gplus: SiddharthaGudipati
   bio: Designer
 ---
 
 {% story_content %}
-I thoroughly enjoyed the wide variety of scenery on this trip and was starting to get the hang of driving on the left side of the road. I arrived at the hotel in the early afternoon, made some coffee — the hotel staff conveniently gave me fresh milk upon check-in — and relaxed a bit before heading back out.
+Coming soon...
 {% endstory_content %}
 
