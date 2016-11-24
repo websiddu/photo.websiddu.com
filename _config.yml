@@ -33,7 +33,15 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     []
+# Exclude the following from the Jekyll build process.
+# Note: "vendor" is for Travis CI.
+exclude: ["vendor",
+          "_assets",
+          "Gemfile",
+          "Gemfile.lock",
+          "gulpfile.js",
+          "node_modules",
+          "package.json"]
 timezone:    nil
 
 # Show future posts
@@ -118,8 +126,5 @@ picture:
   markup: "picture"
   presets:
     default:
-      source_medium:
-        media: "(min-width: 40rem)"
-        width: "1600"
       source_default:
-        width: "1000"
+        width: "1200"

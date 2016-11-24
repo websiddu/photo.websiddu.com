@@ -19,7 +19,9 @@ layout: base
         {% if page.cover_image %}
         <div class="article-cover">
             <div>
-                <img src="images/loader.svg" data-src="{{ page.cover_image }}" class="image">
+                {% photoset %}
+                    {% picture_set {{page.cover_image}}%}
+                {% endphotoset %}
             </div>
         </div>
         {% endif %}

@@ -20,7 +20,6 @@ $transition-function: cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 img {
-  opacity: 0.5;
   transition: opacity .3s $transition-function,
       height .3s $transition-function,
       width .3s $transition-function;
@@ -77,17 +76,24 @@ img {
     line-height: 0;
   }
   clear: both;
+  .picture-wrap {
+    padding: 5px;
+  }
   picture {
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    display: block;
     &.column {
       padding: 0;
+      overflow: hidden;
       img {
-        padding: 5px;
+        margin: 0;
       }
     }
   }
 }
-
 
 .is-fullheight {
   &.columns {
