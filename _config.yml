@@ -33,6 +33,7 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
+incremental: true
 # Exclude the following from the Jekyll build process.
 # Note: "vendor" is for Travis CI.
 exclude: ["vendor",

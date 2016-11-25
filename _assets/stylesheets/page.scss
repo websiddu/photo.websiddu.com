@@ -9,16 +9,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.logo-back {
-  fill: #4A89DC;
+.nav-item.is-brand img {
+  max-height: 32px;
 }
 
-.logo-front {
-  fill: #5D9CEC;
+.is-direction {
+  margin-left: -10px;
 }
 
-.logo-text {
-  fill: #fff;
+.is-sub-brand {
+  margin-left: -10px;
 }
 
 .site-nav {
