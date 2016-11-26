@@ -1,0 +1,51 @@
+$site-footer-background-color: rgba(0, 0, 0, 0.02);
+$site-footer-border-color: rgba(0, 0, 0, 0.1);
+
+body {
+  // background-color: white;
+  background: $site-background-color;
+  color: $site-text-color;
+  transition: .3s background ease-in;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-item img {
+  max-height: 20px;
+}
+
+.nav-item.is-brand img {
+  max-height: 36px;
+}
+
+.is-direction {
+  margin-left: -10px;
+}
+
+.is-sub-brand {
+  margin-left: -8px;
+  img {
+    padding-top: 2px;
+    max-height: 20px;
+  }
+}
+
+.site-nav {
+  .nav {
+    padding: 0 1rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.site-footer {
+  min-height: 120px;
+  background: $site-footer-background-color;
+  margin-top: 4rem;
+  border-top: solid 1px $site-footer-border-color;
+  padding: 2rem 0;
+  p {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}

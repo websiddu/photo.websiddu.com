@@ -1,5 +1,7 @@
 @import "bulma/bulma";
 @import "themes/light";
-@import "page";
-@import "post";
-@import "responsive";
+
+@import "pages/page";
+@import "pages/index";
+@import "pages/post";
+@import "pages/responsive";

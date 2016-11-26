@@ -1,5 +1,39 @@
+# Ignore docs files
+_gh_pages
 _site
-.sass-cache
-.jekyll-metadata
+.ruby-version
+Gemfile.lock
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
+
+# gulp / node stuff
 node_modules
-assets
+.tmp
+.sass-cache/
+.jekyll-metadata
+vendor
+.DS_Store
