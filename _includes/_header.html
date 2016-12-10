@@ -2,23 +2,11 @@
     <header>
         <nav class="nav">
             <div class="nav-left">
-                <a class="nav-item is-brand" href="http://websiddu.com"><img src="images/logo.svg"></a>
+                <a class="nav-item is-brand" href="http://websiddu.com"><img src="/images/logo.svg"></a>
                 <span class="nav-item is-direction">&rarr;</span>
-                <a href="/" class="nav-item is-sub-brand is-tab"> <img src="images/photos.svg"></a>
+                <a href="/" class="nav-item is-sub-brand is-tab"> <img src="/images/photos.svg"></a>
             </div>
 
-            <!--<div class="nav-center">
-                <a class="nav-item" href="#">
-                    <span class="icon">
-                    <i class="fa fa-github"></i>
-                </span>
-                </a>
-                <a class="nav-item " href="#">
-                    <span class="icon">
-                    <i class="fa fa-twitter"></i>
-                </span>
-                </a>
-            </div>-->
 
             <span class="nav-toggle">
                 <span></span>
@@ -27,18 +15,7 @@
             </span>
 
             <div class="nav-right nav-menu">
-                <a class="nav-item is-tab" href="http://blog.websiddu.com">
-                Blog
-                </a>
-                <a class="nav-item is-tab" href="http://websiddu.com">
-                Portfolio
-                </a>
-                <a class="nav-item is-tab" href="http://about.websiddu.com">
-                About
-                </a>
-                <a class="nav-item is-tab" href="http://cook.websiddu.com">
-                Cook
-                </a>
+                {% include _nav.html istab='is-tab'%}
             </div>
         </nav>
     </header>

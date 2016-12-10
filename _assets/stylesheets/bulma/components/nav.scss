@@ -51,9 +51,8 @@ $nav-height: 50px !default;
 .nav-item a,
 a.nav-item {
   color: $text-light;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 500;
-  text-transform: uppercase;
 
   &:hover {
     color: $link-hover;

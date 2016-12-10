@@ -23,7 +23,8 @@ inc:
 
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-  google_font: 'Roboto+Slab:400,700|Roboto:400,700'
+  #google_font: 'Roboto+Slab:400,700|Roboto:400,700'
+  google_font: 'Puritan:400,700|Roboto+Mono:300,400,500'
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
