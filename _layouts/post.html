@@ -39,3 +39,80 @@ layout: base
     </div>
 </article>
 
+
+
+<div class="page-navigation">
+    <div class="container">
+        <div class="page-navigation-content">
+            <h2> More albums </h2>
+            <div class="posts-list">
+                <div class="columns">
+                    {% if page.previous.previous.url %}
+                        <section class="index column">
+                            <a href="{{ page.previous.previous.url }}">
+                            <div class="card">
+                                <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="http://res.cloudinary.com/websiddu/image/upload/c_fill,w_1000,h_750/photos/{{page.previous.previous.cover_image}}.jpg" alt="{{post.title}}">
+                                </figure>
+                                </div>
+                                <div class="card-content">
+                                <h2 class="title">{{ page.previous.previous.title }}</h2>
+                                </div>
+                            </div>
+                            </a>
+                        </section>
+                    {% endif %}
+                    {% if page.previous.url %}
+                    <section class="index column">
+                        <a href="{{ page.previous.url }}">
+                        <div class="card">
+                            <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="http://res.cloudinary.com/websiddu/image/upload/c_fill,w_1000,h_750/photos/{{page.previous.cover_image}}.jpg" alt="{{post.title}}">
+                            </figure>
+                            </div>
+                            <div class="card-content">
+                            <h2 class="title">{{ page.previous.title }}</h2>
+                            </div>
+                        </div>
+                        </a>
+                    </section>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <section class="index column">
+                        <a href="{{ page.next.url }}">
+                        <div class="card">
+                            <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="http://res.cloudinary.com/websiddu/image/upload/c_fill,w_1000,h_750/photos/{{page.next.cover_image}}.jpg" alt="{{post.title}}">
+                            </figure>
+                            </div>
+                            <div class="card-content">
+                            <h2 class="title">{{ page.next.title }}</h2>
+                            </div>
+                        </div>
+                        </a>
+                    </section>
+                    {% endif %}
+                    {% if page.next.next.url %}
+                        <section class="index column">
+                            <a href="{{ page.next.next.url }}">
+                            <div class="card">
+                                <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="http://res.cloudinary.com/websiddu/image/upload/c_fill,w_1000,h_750/photos/{{page.next.next.cover_image}}.jpg" alt="{{post.title}}">
+                                </figure>
+                                </div>
+                                <div class="card-content">
+                                <h2 class="title">{{ page.next.next.title }}</h2>
+                                </div>
+                            </div>
+                            </a>
+                        </section>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

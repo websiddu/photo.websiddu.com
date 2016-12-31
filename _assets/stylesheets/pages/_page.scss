@@ -41,11 +41,25 @@ body {
 .site-footer {
   min-height: 120px;
   background: $site-footer-background-color;
-  margin-top: 4rem;
   border-top: solid 1px $site-footer-border-color;
   padding: 2rem 0;
   p {
     font-size: 1.1rem;
     margin: 0;
   }
+}
+
+.page-navigation {
+  border-top: solid 1px $site-pagination-border-color;
+  margin-top: 4rem;
+}
+
+.page-navigation-content {
+  padding: 2rem 5px 4rem;
+}
+
+.page-navigation-content h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
 }

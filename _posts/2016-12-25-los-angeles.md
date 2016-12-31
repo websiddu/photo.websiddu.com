@@ -3,7 +3,7 @@ layout: post
 
 title: Los Angeles
 subtitle: "A three day road trip to the film capital"
-cover_image: los-angeles/cover/cover.v2
+cover_image: los-angeles/cover/cover.v3
 size: 4
 excerpt: ""
 
@@ -25,7 +25,7 @@ Around 100 miles away form my house, we stopped at this stunning location to enj
 {% endstory_content %}
 
 {% photoset %}
-  {% picture_set los-angeles/onway/1%}
+  {% picture_set los-angeles/onway/1.v1%}
 {% endphotoset %}
 
 {% photoset %}
