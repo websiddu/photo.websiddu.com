@@ -74,7 +74,7 @@ body {
 
 .cd-top {
   display: inline-block;
-  height: 40px;
+  height: 20px;
   width: 40px;
   position: fixed;
   bottom: 100px;
@@ -82,6 +82,8 @@ body {
   z-index: 10;
   color: #43434B;
   transition: opacity .3s 0s, visibility 0s .3s;
+  visibility: hidden;
+  text-align: center;
 }
 
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
@@ -110,8 +112,8 @@ body {
 }
 @media only screen and (min-width: 1024px) {
   .cd-top {
-    height: 60px;
-    width: 60px;
+    height: 20px;
+    width: 40px;
     right: 20px;
     bottom: 20px;
   }
