@@ -241,3 +241,6 @@ We only managed to visit the north & south wings which had exquisite italian & e
   {% picture_set los-angeles/the-getty/1%}
 {% endphotoset %}
 
+{% photoset %}
+  {% picture_set los-angeles/wayback/1.v1%}
+{% endphotoset %}
