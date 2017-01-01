@@ -218,14 +218,14 @@ We spent a couple of hours walking on the beach. It's around 2 miles walk across
 {% endphotoset %}
 
 {% photoset %}
-  {% picture_set los-angeles/venice-beach/3%}
-  {% picture_set los-angeles/venice-beach/5%}
-{% endphotoset %}
-
-{% photoset %}
   {% picture_set los-angeles/venice-beach/1.v1%}
   {% picture_set los-angeles/venice-beach/4%}
 {% endphotoset %}
+
+{% photoset %}
+  {% picture_set los-angeles/venice-beach/5%}
+{% endphotoset %}
+
 
 {% story_content location%}
 ## The getty
@@ -239,8 +239,4 @@ We only managed to visit the north & south wings which had exquisite italian & e
 
 {% photoset %}
   {% picture_set los-angeles/the-getty/1%}
-{% endphotoset %}
-
-{% photoset %}
-  {% picture_set los-angeles/wayback/1.v1%}
 {% endphotoset %}
