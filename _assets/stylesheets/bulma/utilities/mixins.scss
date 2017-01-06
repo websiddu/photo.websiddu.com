@@ -229,6 +229,7 @@
 $tablet: 769px !default;
 $desktop: 980px !default;
 $widescreen: 1180px !default;
+$megascreen: 2180px !default;
 
 @mixin from($device) {
   @media screen and (min-width: $device) {
@@ -279,7 +280,13 @@ $widescreen: 1180px !default;
 }
 
 @mixin widescreen {
-  @media screen and (min-width: $widescreen) {
+  @media screen and (min-width: $widescreen) and (max-width: $megascreen - 1px) {
+    @content;
+  }
+}
+
+@mixin megascreen {
+  @media screen and (min-width: $megascreen) {
     @content;
   }
 }

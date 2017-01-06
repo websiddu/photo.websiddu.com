@@ -20,6 +20,11 @@
   @include widescreen {
     max-width: 1200px;
   }
+
+  @include megascreen {
+    max-width: 2000px;
+  }
+
 }
 
 .delete {
