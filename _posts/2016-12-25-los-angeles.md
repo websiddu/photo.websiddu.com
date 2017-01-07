@@ -165,9 +165,9 @@ We had a chance to spend a whole day in the __entertainment capital of LA__. We 
   {% picture_set los-angeles/universal-studios/14%}
 {% endphotoset %}
 
-{% photoset %}
+<!--{% photoset %}
   {% picture_set los-angeles/universal-studios/13.v1%}
-{% endphotoset %}
+{% endphotoset %}-->
 
 {% photoset %}
   {% picture_set los-angeles/universal-studios/20%}
@@ -218,9 +218,9 @@ We spent a couple of hours walking on the beach. It's around 2 miles walk across
   {% picture_set los-angeles/venice-beach/4%}
 {% endphotoset %}
 
-{% photoset %}
+<!--{% photoset %}
   {% picture_set los-angeles/venice-beach/5%}
-{% endphotoset %}
+{% endphotoset %}-->
 
 
 {% story_content location%}
