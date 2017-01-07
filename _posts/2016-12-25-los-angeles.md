@@ -154,11 +154,11 @@ We had a chance to spend a whole day in the __entertainment capital of LA__. We 
 {% endphotoset %}
 
 
-{% photoset %}
+<!--{% photoset %}
   {% picture_set los-angeles/universal-studios/5%}
   {% picture_set los-angeles/universal-studios/3%}
-  <!--{% picture_set los-angeles/universal-studios/10%}-->
-{% endphotoset %}
+  {% picture_set los-angeles/universal-studios/10%}
+{% endphotoset %}-->
 
 {% photoset %}
   {% picture_set los-angeles/universal-studios/19%}
@@ -173,6 +173,7 @@ We had a chance to spend a whole day in the __entertainment capital of LA__. We 
   {% picture_set los-angeles/universal-studios/20%}
   {% picture_set los-angeles/universal-studios/25%}
 {% endphotoset %}
+
 
 {% photoset %}
   {% picture_set los-angeles/universal-studios/18%}
