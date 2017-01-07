@@ -153,16 +153,11 @@ We had a chance to spend a whole day in the __entertainment capital of LA__. We 
   {% picture_set los-angeles/universal-studios/16%}
 {% endphotoset %}
 
-{% photoset %}
-  {% picture_set los-angeles/universal-studios/12%}
-  {% picture_set los-angeles/universal-studios/11%}
-{% endphotoset %}
-
 
 {% photoset %}
   {% picture_set los-angeles/universal-studios/5%}
   {% picture_set los-angeles/universal-studios/3%}
-  {% picture_set los-angeles/universal-studios/10%}
+  <!--{% picture_set los-angeles/universal-studios/10%}-->
 {% endphotoset %}
 
 {% photoset %}
