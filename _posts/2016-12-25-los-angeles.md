@@ -89,9 +89,9 @@ I loved the street musicians in this beach particularly the old guy (picture bel
   {% picture_set los-angeles/santa-monica/7.v1%}
 {% endphotoset %}
 
-{% photoset %}
+<!--{% photoset %}
   {% picture_set los-angeles/santa-monica/3%}
-{% endphotoset %}
+{% endphotoset %}-->
 
 {% photoset %}
   {% picture_set los-angeles/santa-monica/4%}
