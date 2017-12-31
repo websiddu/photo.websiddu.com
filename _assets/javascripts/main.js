@@ -72,7 +72,7 @@
 
   var _unveil = function () {
     $("img").lazyload({
-      effect : "fadeIn"
+      threshold : 400
     });
   }
 

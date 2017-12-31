@@ -32,8 +32,8 @@ module Jekyll
       ratio = get_ratio(smalljpg)
 
       """<div class='column picture-wrap' data-ratio='#{ratio.to_s}'>
-          <picture style='background-image: url(#{smalljpg})'>
-            <img src='#{smallUrl}' data-src='#{jpg}' class='cld-responsive'>
+          <picture>
+            <img data-src='#{jpg}' class='cld-responsive'>
       </picture></div>
       """
     end

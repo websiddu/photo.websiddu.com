@@ -20,9 +20,9 @@ $transition-function: cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 img {
-  transition: opacity .3s $transition-function,
-      height .3s $transition-function,
-      width .3s $transition-function;
+  // transition: opacity .3s $transition-function,
+  //     height .3s $transition-function,
+  //     width .3s $transition-function;
 }
 
 .article-cover {

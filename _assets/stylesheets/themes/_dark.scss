@@ -2,6 +2,14 @@ $site-background-color: #292f33;
 $site-text-color: #fff;
 
 $site-footer-background-color: rgba(0, 0, 0, 0.3);
-$site-footer-border-color: rgba(0, 0, 0, 0.5);
+$site-footer-border-color: rgba(0, 0, 0, 0.35);
 
 $site-pagination-border-color: $site-footer-border-color;
+
+$site-nav-bg-color: $site-background-color;
+$site-nav-shadow: 0 0 0 rgba(0, 0, 0, 0);
+
+$site-nav-color: #fff;
+$site-nav-hover-color: #eee;
+
+$site-pagination-bg-color: $site-footer-background-color;

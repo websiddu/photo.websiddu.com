@@ -31,8 +31,8 @@ inc:
 url:         http://0.0.0.0:4000
 source:      .
 destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
 include:     ['.htaccess']
 incremental: true
 # Exclude the following from the Jekyll build process.
@@ -50,7 +50,6 @@ timezone:    nil
 future:      false
 show_drafts: nil
 limit_posts: 0
-pygments:    false
 
 relative_permalinks: true
 
@@ -89,7 +88,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
+  # use_coderay: false
 
   coderay:
     coderay_wrap: div

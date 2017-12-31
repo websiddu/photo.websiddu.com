@@ -123,11 +123,11 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     parslet (1.5.0)
       blankslate (~> 2.0)
-    posix-spawn (0.3.13)
+    posix-spawn (0.3.12)
     public_suffix (1.5.3)
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
-      yajl-ruby (~> 1.2.0)
+      yajl-ruby (~> 1.3.0)
     rack (1.6.5)
     rake (11.3.0)
     rb-fsevent (0.9.8)
@@ -163,7 +163,7 @@ GEM
     uglifier (3.0.3)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.1.1)
-    yajl-ruby (1.2.2)
+    yajl-ruby (1.3.0)
 
 PLATFORMS
   ruby
@@ -171,9 +171,8 @@ PLATFORMS
 DEPENDENCIES
   fastimage
   github-pages
-  jekyll (= 2.4.0)
+  jekyll
   jekyll-assets
-  jekyll-paginate
   kramdown
   mini_magick
   rake
@@ -182,4 +181,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.15.1
+   1.13.6

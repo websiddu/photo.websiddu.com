@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '2.4.0'
 gem 'jekyll-assets'
+gem 'jekyll-paginate'
 gem 'kramdown'
 gem 'rake'
 gem 'sass'

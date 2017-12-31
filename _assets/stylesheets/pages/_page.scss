@@ -1,6 +1,3 @@
-$site-footer-background-color: rgba(0, 0, 0, 0.02);
-$site-footer-border-color: rgba(0, 0, 0, 0.1);
-
 body {
   // background-color: white;
   background: $site-background-color;
@@ -19,6 +16,13 @@ body {
   max-height: 36px;
 }
 
+.nav-item a, a.nav-item {
+  color: $site-nav-color;
+  &:hover, &:focus {
+    color: $site-nav-hover-color;
+  }
+}
+
 .is-direction {
   margin-left: -10px;
 }
@@ -31,10 +35,16 @@ body {
   }
 }
 
+.sub-logo {
+  fill: #fff;
+  max-height: 20px;
+}
+
 .site-nav {
   .nav {
+    background: $site-nav-bg-color;
     padding: 0 1rem;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: $site-nav-shadow;
   }
 }
 
@@ -50,6 +60,7 @@ body {
 }
 
 .page-navigation {
+  background: $site-pagination-bg-color;
   border-top: solid 1px $site-pagination-border-color;
   margin-top: 4rem;
 }
