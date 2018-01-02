@@ -17,7 +17,7 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}"/>
     <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
     {% if page.cover_image %}
-    <meta property="og:image" content="{{ site.url }}/{{ page.cover_image }}"/>
+    <meta property="og:image" content="http://res.cloudinary.com/websiddu/image/upload/c_fill,w_1000,h_750/photos/{{page.cover_image}}.jpg"/>
     {% if page.main_image %}
     <meta property="og:image" content="{{ site.url }}/{{ page.main_image }}"/>
     {% endif %}
