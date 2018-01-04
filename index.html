@@ -2,21 +2,21 @@
 layout: base
 ---
 
-<article class="container">
-  <div class="columns is-multiline posts-list">
+<article class="container-full">
+  <div class="columns is-multiline posts-list is-gapless">
     {% for post in paginator.posts %}
       {% unless post.draft %}
-        <section class="index column is-6">
+        <section class="index column is-4">
             <a href="{{ post.url }}" rel="prefetch">
               <div class="card">
                 <div class="card-image">
                   <figure class="image is-4by3">
-                    <img src="http://res.cloudinary.com/websiddu/image/upload/c_scale,w_800/photos/{{post.cover_image}}.jpg" alt="{{post.title}}">
+                    <img src="http://res.cloudinary.com/websiddu/image/upload/w_800,h_800,c_fill/photos/{{post.cover_image}}.jpg" alt="{{post.title}}">
                   </figure>
                 </div>
                 <div class="card-content">
                   <h2 class="title">{{ post.title }}</h2>
-                  <p>{{ post.excerpt }}</p>
+                  <p>{{ post.subtitle }}</p>
                 </div>
               </div>
             </a>

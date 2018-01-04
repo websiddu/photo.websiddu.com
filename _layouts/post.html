@@ -33,20 +33,19 @@ layout: base
     </div>
 </article>
 
-
 <div class="page-navigation">
     <div class="container">
         <div class="page-navigation-content">
             <h2> More albums </h2>
             <div class="posts-list">
-                <div class="columns">
+                <div class="columns is-gapless">
                     {% if page.previous.previous.url %}
                         <section class="index column">
                             <a href="{{ page.previous.previous.url }}">
                             <div class="card">
                                 <div class="card-image">
                                 <figure class="image is-4by3">
-                                    <img src="http://res.cloudinary.com/websiddu/image/upload/c_fill,w_1000,h_750/photos/{{page.previous.previous.cover_image}}.jpg" alt="{{post.title}}">
+                                    <img src="http://res.cloudinary.com/websiddu/image/upload/w_800,h_800,c_fill/photos/{{page.previous.previous.cover_image}}.jpg" alt="{{post.title}}">
                                 </figure>
                                 </div>
                                 <div class="card-content">
@@ -62,7 +61,7 @@ layout: base
                         <div class="card">
                             <div class="card-image">
                             <figure class="image is-4by3">
-                                <img src="http://res.cloudinary.com/websiddu/image/upload/c_fill,w_1000,h_750/photos/{{page.previous.cover_image}}.jpg" alt="{{post.title}}">
+                                <img src="http://res.cloudinary.com/websiddu/image/upload/w_800,h_800,c_fill/photos/{{page.previous.cover_image}}.jpg" alt="{{post.title}}">
                             </figure>
                             </div>
                             <div class="card-content">
@@ -78,7 +77,7 @@ layout: base
                         <div class="card">
                             <div class="card-image">
                             <figure class="image is-4by3">
-                                <img src="http://res.cloudinary.com/websiddu/image/upload/c_fill,w_1000,h_750/photos/{{page.next.cover_image}}.jpg" alt="{{post.title}}">
+                                <img src="http://res.cloudinary.com/websiddu/image/upload/w_800,h_800,c_fill/photos/{{page.next.cover_image}}.jpg" alt="{{post.title}}">
                             </figure>
                             </div>
                             <div class="card-content">
@@ -94,7 +93,7 @@ layout: base
                             <div class="card">
                                 <div class="card-image">
                                 <figure class="image is-4by3">
-                                    <img src="http://res.cloudinary.com/websiddu/image/upload/c_fill,w_1000,h_750/photos/{{page.next.next.cover_image}}.jpg" alt="{{post.title}}">
+                                    <img src="http://res.cloudinary.com/websiddu/image/upload/w_800,h_800,c_fill/photos/{{page.next.next.cover_image}}.jpg" alt="{{post.title}}">
                                 </figure>
                                 </div>
                                 <div class="card-content">
