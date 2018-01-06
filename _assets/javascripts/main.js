@@ -156,7 +156,7 @@
     img.on('click', function(e) {
       var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, slides, options);
       gallery.init();
-    })
+    });
 
 
   });
