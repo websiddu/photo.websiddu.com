@@ -5,7 +5,7 @@ title: Los Angeles
 subtitle: "A three day road trip to the film capital"
 cover_image: los-angeles/cover/cover.v3
 size: 4
-excerpt: ""
+excerpt: "A three day road trip to the film capital"
 
 author:
   name: Siddhartha Gudipati

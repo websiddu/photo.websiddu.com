@@ -5,7 +5,7 @@ title: California route one
 subtitle: "Pictures taken on California route one"
 cover_image: route1/1
 size: 4
-excerpt: ""
+excerpt: "Pictures taken on California route one"
 
 author:
   name: Siddhartha Gudipati

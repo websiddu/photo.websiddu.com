@@ -5,7 +5,7 @@ title: Cats &amp; Kittens
 subtitle: "A collection of cats and kittens"
 cover_image: cats/1
 size: 4
-excerpt: ""
+excerpt: "A collection of cats and kittens"
 
 author:
   name: Siddhartha Gudipati

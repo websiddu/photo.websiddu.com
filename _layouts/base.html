@@ -11,17 +11,17 @@
     <link rel="apple-touch-icon" href="/{{ site.inc.logo }}"/>
     <link href="{{ site_url }}/feed.xml" rel="alternate" type="application/rss+xml" title="{{ site.inc.title }}" />
     <meta name="title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="canonical" href="{{ "http://photos.websiddu.com" }}{{ page.url }}">
     {% if page.site.gplus %}<link rel="publisher" href="https://plus.google.com/{{ site.inc.gplus }}">{% endif %}
     {% if page.author.gplus %}<link rel="author" href="https://plus.google.com/{{ page.author.gplus }}">{% endif %}
     <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}"/>
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta property="og:url" content="{{ "http://photos.websiddu.com" }}{{ page.url }}"/>
     {% if page.cover_image %}
-    <meta property="og:image" content="http://res.cloudinary.com/websiddu/image/upload/c_fill,w_1000,h_750/photos/{{page.cover_image}}.jpg"/>
+    <meta property="og:image" content="http://res.cloudinary.com/websiddu/image/upload/c_fill,w_1000,h_750/photos/{{page.cover_image}}.webp"/>
     {% if page.main_image %}
-    <meta property="og:image" content="{{ site.url }}/{{ page.main_image }}"/>
+    <meta property="og:image" content="{{ "http://photos.websiddu.com" }}/{{ page.main_image }}"/>
     {% endif %}
-    <meta property="og:image" content="{{ site.url }}/{{ site.inc.logo }}"/>
+    <meta property="og:image" content="{{ "http://photos.websiddu.com" }}/{{ site.inc.logo }}"/>
     {% endif %}
     {% if page.excerpt %}
     <meta property="og:description" content="{{ page.excerpt }}"/>

@@ -5,7 +5,7 @@ title: Best of best
 subtitle: "Best photos from my collection"
 cover_image: bob/3
 size: 4
-excerpt: ""
+excerpt: "Best photos from my collection"
 
 author:
   name: Siddhartha Gudipati

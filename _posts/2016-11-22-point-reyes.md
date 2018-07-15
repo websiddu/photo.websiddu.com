@@ -5,7 +5,7 @@ title: Point reyes
 subtitle: "A worthful long drive"
 cover_image: point-reyes/cover/point-reyes
 size: 4
-excerpt: ""
+excerpt: "Spontaneously my friends and I went to Mount Tamalpais and Point reyes on a 300mile road trip. I thoroughly enjoyed the winding roads and even saw a wild fox for the first time so close."
 
 author:
   name: Siddhartha Gudipati

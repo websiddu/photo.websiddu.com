@@ -5,7 +5,7 @@ title: Napa valley
 subtitle: "Beautiful long drive with awesome winery"
 cover_image: napa-valley/cover/cover.v1
 size: 4
-excerpt: ""
+excerpt: "Beautiful long drive with awesome winery"
 
 author:
   name: Siddhartha Gudipati
